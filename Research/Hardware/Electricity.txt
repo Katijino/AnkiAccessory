@@ -1,0 +1,100 @@
+information from :https://learn.sparkfun.com/tutorials/what-is-electricity
+
+
+Electricity in terms of current electricity. stuff that powers our electronic gadgets. 
+
+Electricity: the flow of electric charge.
+
+### Building up to electricity:
+
+#### Atoms:
+
+**Atoms exist in over 100 different forms as chemical elements. they combine to make molecules, which build the matter we can physically touch and see.**
++ In a balanced, stable state, an atom will have the same number of protons as electrons.
+
+**smaller than atoms are protons, neutrons, and electrons**
++ the electrons on the outer orbit of the atom are called valence electrons
+	+ these electrons can escape the orbit of the atom and become free
+	+ Free electrons allow us to move charge, which is what electricity is all about.
+
+#### Charges:
+
+Charge: a property of matter-- like mass, volume, or density. 
++ Can come in two types: positive (+) or negative (-)
++ moving charges requires charge carrier
++ Electrons always carry a negative charge, while protons always carry a positive charge. Neutrons are neutral
+	+ the charge of electrons and charge of protons are the same amount, but different type always.
++ Electrostatic Force is the force that operates between charges
+	+ states that charges of the same type repel each other, and charges of opposite types are attracted together
+	+ the amount of force acting on two charges depends on their distance.
+	+ electrons push away other electrons and attract other protons
++ Electrons act as the charge carrier, because every electron carries a negative charge
+	+ freeing an electron from an atom and forcing it to move creates electricity
+
+Using electrostatic force on a valence electron, pushing it with another negative charge or pulling it with a positive charge, is how you eject an electron from the orbit of an atom and create a free electron
+### Electricity:
+
+#### Case Study: Copper Wire
+
+The copper wire has 29 protons, and therefore 29 electrons orbiting the nucleus. electrostatic force is used on an atom in the wire, creating a free electron. this free electron is pulled and pushed by other atoms in the wire, and eventually attaches to the orbit of a new atom. When it does this, it kicks out another valence electron, creating a chain.
+
+Electric current: the chain effect of electrostatic force, caused by free electrons repeatedly attaching to new atoms and kicking out valence electrons
+
+Some elemental types of atoms are better than others at releasing electrons. 
++ we want atoms that don't hold very tight to their valence electrons.
+**Conductivity**: how tightly bound an electron is to an atom
++ elements with high conductivity are called conductors (copper, silver, gold, etc.)
++ elements with low conductivity are called insulators, preventing the flow of electrons
+	+ glass, rubber, plastic, air
+
+#### Static Electricity:
+
+Static electricity exists when there is a build-up of opposite charges on objects separated by an insulator. Static (as in "at rest") electricity exists until the two groups of opposite charges can find a path between each other to balance the system out.
+
+Static Discharge: when the charges find a means of equalizing.
++ can be harmful
++ examples include lightning
+	+ when a cloud system gathers enough charge relative to another group of clouds or the ground, the charges will equalize. massive quantities of + or - charges run through the air.
+When working with electronics, we don't typically use static electricity. mostly protecting ourselves from it.
+
+#### Current Electricity:
+
+the form of electricity that makes electronics possible.
+
+Exists when charges are able to constantly flow, as opposed to static electricity where charges gather and rest.
+
+In order to flow, current electricity needs [[Circuits]]. 
++ a closed, never ending loop of conductive material
++ circuits have no insulating gaps in them.
+
+#### Electric Fields:
+
+Field: a tool used to model physical interactions which don't involve any observable contact.
+
+Electric Fields: The source of electron flow to induce the flow of electrons
++ describe the pulling or pushing force in a space between charges
++ the direction of an electric field is always defined as the direction a positive charge would move if it was dropped in the field.
+
+#### Electric Potential:
+
+Energy: the ability of an object to do work on another object
+
+Electric PE: he stored energy of a circuit
+
+A positive charge in close proximity to another positive charge has a high electric potential energy. when set into motion by an electrostatic force, that energy can become kinetic and the charge can do work.
+
+Electric Potential Energy: For any charge located in an electric field its electric potential energy depends on the type (positive or negative), amount of charge, and its position in the field. Electric potential energy is measured in units of joules (J).
+
+Electric potential: how much energy is stored in electric fields. 
++ not the same as electric potential energy
++ $EP = \frac{EPE}{\text{amount of charge}}$
++ Electric Potential comes in Joules per coulomb, defined as a volt (V)
+
+voltage: the difference in potential between two points in an electric field.
+
+#### Electricity in Action:
+![[Pasted image 20251007174225.png]]
+Example: a Battery. The Negative charges in the battery push the weak negative valence electrons in the copper wire, and the Positive charges in the battery pull them. The electrons flow throughout the battery. This a closed circuit with no means to release energy, so it is bad. nowhere to release energy.
+
+
+
