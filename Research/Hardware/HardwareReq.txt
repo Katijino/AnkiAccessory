@@ -1,0 +1,8 @@
+After basic research, I believe I have found the workflow for designing the Hardware I want to use.
+
+
+Required Materials:
+ESP32($5-$10)
+momentary micro switch (10ish, figure out after design done). ($9)
+USB cable to charge.
+on/off micro switch($1)
