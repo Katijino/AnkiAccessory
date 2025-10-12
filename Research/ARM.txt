@@ -1,0 +1,16 @@
+
+a family of RISC instruction set architectures for computer processors
+
+ARM processors are most useful because of their low costs, low power consumption, and low heat generation.
+
+Used in light, portable, battery powered devices like phones, laptops, and tablets.
+
+It is also the most widely used family of instruction set architectures
+
+Every type of computing chip comes with a set of instructions that engineers can use to build software.as  a list of things the chip can be instructed do when told, such as arithmetic, logic operations, and moving data around in memory. ALL software of any kind is built using these basic few functions like “add these two numbers”, “tell me if two numbers are the same”, and “remember this number”.  
+
+ARM is a type of chip architecture that focuses on being physically small and using the least amount of electricity as possible to do the work it is instructed. The most important way it does this is by how limiting or reduced the list and power of available instructions is. This is called Reduced Instruction Set Computing (RISC).   
+
+In contrast, the x86 architecture based off of Intel’s work focuses entirely on performance. Its use of Complex Instruction Set Computing (CISC) means lots more power and speed, but at the cost of energy consumption. And until recently, it was so popular and so much better documented, it was the go-to choice because you could build more powerful software faster.
+
+ARM and x86 are both 50 years old, so neither is all that revolutionary. Our increased desire and ability to make smaller battery-powered electronics just means ARM is now preferred for many applications.

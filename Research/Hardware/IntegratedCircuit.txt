@@ -1,0 +1,20 @@
+
+
+
+Also known as a microchip, chip or [[MicroController]]
+
+
+
+Contains:
++ transistors
++ resistors
++ capacitors
++ connections between them
+The different components are fabricated onto a "chip" of semiconductor material, typically silicon
+
+Used heavily in computer, smartphones, TV's, and many other electronics.
+
+Classified as:
++ analog
++ digital
++ mixed signal(both analog & digital)

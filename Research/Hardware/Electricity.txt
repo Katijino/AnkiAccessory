@@ -1,3 +1,11 @@
+Chapters: 
+[[#Building up to electricity]]
+[[#Electricity]]
+[[#Ohms Law]]
+[[#Electric Power]]
+
+
+
 information from :https://learn.sparkfun.com/tutorials/what-is-electricity
 
 
@@ -95,6 +103,112 @@ voltage: the difference in potential between two points in an electric field.
 #### Electricity in Action:
 ![[Pasted image 20251007174225.png]]
 Example: a Battery. The Negative charges in the battery push the weak negative valence electrons in the copper wire, and the Positive charges in the battery pull them. The electrons flow throughout the battery. This a closed circuit with no means to release energy, so it is bad. nowhere to release energy.
+
+
+
+
+### Ohms Law:
+
+#### Setup:
+
+Voltage(V): the difference in charge between two points
+
+Current: rate at which charge is flowing
+
+Resistance: a materials density to resist the flow of charge(current)
+
+Amps(I) = what current is measured in, 1 Coulomb per second passing through a point in a circuit
+
+Ohms($\Omega$): the unit of resistance. 1 Ohm is the resistance between two points in a conductor where 1 volt will push 1 ampere.
+
+Water Tank analogy:
++ Charge- amount of water
++ voltage- water pressure
++ Current- water flow
++ Hose width = Resistance
+
+#### Equations:
+
+$V=I\times R$
++ Ohms law.
++ Ex. have a circuit with the potential of 1 volt, current of 1 amp, and resistance of 1 ohm.
+	+ So $1V=1A*1\Omega$
+$P=I\times V$
+
+### Electric Power:
+
+Power: the rate at which energy is transferred or transformed
+
+
+| Energy Type converted | Converted by   |
+| --------------------- | -------------- |
+| Mechanical            | Electric Motor |
+| Electromagnetic       | LED            |
+| Heat                  | Resistor       |
+| Chemical              | Battery        |
+| Wind                  | Windmill       |
+
+Electric Power: a measure of how much electric energy is transferred, and how fast that transfer happens.
+
+#### Producers and Consumers:
+
+Each component in a circuit either consumes or produces electric energy
+
+Consumer: transforms electric energy into another form. Lightbulb is a consumer
+
+Producer: When energy is transferred to electric from some other form. Battery is a producer
+
+$watt = W = \frac{joule}{second} = \frac{J}{s}$
+
+[[MicroController]]s typically operate in the µW or mW range, 
+
+#### Calculating Power:
+
+V = Volts
+
+P = Power
+
+I = Current
+To calculate the power of any particular component in a circuit, multiply the voltage drop across it by the current running through it.
+$P=VI = \frac{V^2}{R} = I^2 \times R$
+
+$V=I\times R$
+
+This is a 9 volt resistor with 10 Ohms of resistance.
+![[Pasted image 20251007195950.png]]
+so $I = \frac{9}{10} = 0.9A$  &  $P=VI = 9 \times .9 = 8.1W$
+
+Therefore, the circuit transforms 8.1joules of electric energy to heat every second.
+
+#### Power Ratings:
+All electronic components transfer energy from one type to another.
++ some of it isgood, LED's emitting light, motors spinning, batteries charging
++ some is bad, called power losses. These typically show up in the form of heat.
+
+Example:
+
+you want to light a LED at max brightness using a 9V battery.
+LED has a max forward current of 80mA, forward voltage of about 2.2V
+![[Pasted image 20251007203813.png]]
+
+$I = .08mA$  and $V = .08 \times R$ so $6.8V = .08 \times R$ and $R = \frac{6.8}{.08} = 85\Omega$
+
+
+### Electric Currents:
+
+
+There are two main types of currents: Direct Currents and Electric currents.
+
+Direct Currents: The electric charge(current) only flows in one direction
+
+Alternating currents: The current can flow in both directions, and changes directions periodically.
++ the one most used when transmitting electricity across long distances
++ when current reverses, voltage also reverses
++ Produced using a device called an alternator.
++ 
+
+
+
 
 
 

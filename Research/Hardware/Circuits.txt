@@ -1,0 +1,26 @@
+Important Information:
++ every source of electricity has two sides, in DC sources typically are the + and - you seen on batteries and such.
++ voltage is potential, but electricity needs to flow to do anything useful
++ electricity needs a path to flow through, which must be some sort of electrical conductor. 
++ electricity will flow from a higher voltage to a lower voltage.
+
+connecting a positive side of a voltage source, through to something that does work, and back to the negative side, creates a flow of electricity, or a current. The circular path described is called a circuit.
+
+Below is a basic circuit:
+![[Pasted image 20251010170043.png]]
+Electricity flows from the + side, through the resistor and LED, and back to the - side. in this process, the LED is powered.
++ in reality, Electrons flow from the - side to the + side, but because it was impossible for hundreds of years before it was discovered, we still use the convention of flowing from + to -
+
+
+#### Loads:
+
+Loads: the items we put in the circuit that do things (LED's, TV's etc.)
++ called loads because they "load down" the power supply
++ It is possible to load down a power supply too much, letting too much current flow and possibly burning out your parts or even the power supply.
+
+
+#### Short Circuits:
+
+Short circuit: when you connect a wire directly from the positive side to the negative side of a power supply.
++ bad idea. If you have a load in the current, the flow will be limited to that which your device consumes, which is typically a very small amount. but if you don't have anything, it will try to consume an infinite amount of electricity.
+![[Pasted image 20251010170929.png]]
