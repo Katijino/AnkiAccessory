@@ -1,0 +1,29 @@
+#include <Keyboard.h>
+
+const int againButton = 2;  // sends '1'
+const int goodButton  = 3;  // sends '3'
+
+void setup() {
+  pinMode(againButton, INPUT_PULLUP);
+  pinMode(goodButton, INPUT_PULLUP);
+
+  Keyboard.begin();
+}
+
+void loop() {
+  // AGAIN -> send key '1'
+  if (digitalRead(againButton) == LOW) {
+    Keyboard.press('1');
+    delay(50);
+    Keyboard.release('1');
+    delay(250); // debounce
+  }
+
+  // GOOD -> send key '3'
+  if (digitalRead(goodButton) == LOW) {
+    Keyboard.press('3');
+    delay(50);
+    Keyboard.release('3');
+    delay(250);
+  }
+}
